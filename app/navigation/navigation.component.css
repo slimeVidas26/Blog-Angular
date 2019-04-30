@@ -1,0 +1,27 @@
+#logo {
+  float: left;
+  width: 185px;
+  margin-left: 25px;
+}
+
+#logo>p {
+  line-height: 96px;
+}
+
+.deep {
+  color: #F8DE60;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.soul {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.point {
+  color: #F8DE60;
+  font-size: 35px;
+  font-weight: bold;
+}

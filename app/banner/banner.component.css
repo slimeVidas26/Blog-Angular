@@ -1,0 +1,50 @@
+/**********************************************************************************************/
+
+/******************************** BANNER *********************************************/
+
+/**********************************************************************************************/
+
+#banner {
+  background-color: mediumseagreen;
+  position: relative;
+}
+
+#banner img {
+  width: 100%;
+}
+
+/**********************************************************************************************/
+
+/******************************** BANNER FORM *********************************************/
+
+/**********************************************************************************************/
+
+.form1 {
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+  color: white;
+}
+
+#banner input[type="text"],
+input[type="password"],
+input[type="email"] {
+  margin: 20px 0;
+  width: 250px;
+  height: 41px;
+  background-color: #15232b;
+  border: none;
+  padding: 0 30px;
+}
+
+#banner input[type="submit"] {
+  width: 164px;
+  height: 41px;
+  background-color: #a20d11;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  box-shadow: 5px -5px 15px #fff;
+}

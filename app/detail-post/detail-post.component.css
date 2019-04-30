@@ -1,0 +1,23 @@
+.article_post {
+  height: auto;
+  overflow: auto;
+  margin-bottom: 84px;
+}
+
+.article_post p {
+  line-height: 1.4;
+  overflow: auto;
+  height: auto;
+  max-height: 400px;
+}
+
+.article_post h3 {
+  text-align: center;
+  color: #294271;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 40px;
+  width: 100px;
+}

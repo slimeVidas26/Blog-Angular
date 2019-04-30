@@ -1,0 +1,47 @@
+.content {
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+#articles {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  height: auto;
+}
+
+.titlepost .ng-untouched .ng-pristine .ng-valid {
+  width: 383px;
+}
+
+.article_text {
+  float: left;
+  background-color: #F3F3F3;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  color: #818181;
+  margin-bottom: 15px;
+  font-style: normal;
+  list-style-type: none;
+  text-decoration: none;
+  color: rgba(136, 136, 136, 1);
+  text-align: left;
+  padding-left: 50px;
+}
+
+.article_text span {
+  margin: 10px;
+}
+
+.article_text:hover {
+  cursor: pointer;
+  font-style: normal;
+  text-decoration: underline;
+  color: rgba(119, 119, 119, 1);
+}
+
+li.selected {
+  background-color: #CFD8DC;
+  color: white;
+}

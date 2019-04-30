@@ -1,0 +1,26 @@
+<!--BEGIN ARTICLES-->
+<div id="articles">
+
+  <div class="article">
+
+    <div class="article_post">
+
+      <h3> {{postTitle}}</h3>
+      <p> {{postContent}}</p>
+      <div class="content" [innerHTML]="postHtml"></div>
+    </div>
+
+  </div>
+  <div class="command">
+    <button (click)="goToPosts()" type="button" class="btn btn-secondary back">Back</button>
+    <button (click)="goPrevious()" type="button" class="btn btn-info previous">Previous</button>
+    <button (click)="goNext()" type="button" class="btn btn-warning next">Next</button>
+    <button (click)="deletePost()" type="button" id="deletePost" class="btn btn-primary">Delete</button>
+    <button (click)="goEdit()" id="updatePost" class="btn btn-success">Edit</button>
+
+  </div>
+
+
+</div>
+
+<!--END ARTICLES-->

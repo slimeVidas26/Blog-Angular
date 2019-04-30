@@ -1,0 +1,10 @@
+<div id="alerts">
+
+  <h2>{{title}}</h2>
+  <ul>
+    <li class="alert" *ngFor="let post of posts; index as i">
+      <a routerLink="/single/{{i}}">{{post.title}}</a>
+      <p> {{post.content}}</p>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,94 @@
+/**********************************************************************************************/
+
+/******************************** FOOTER *********************************************/
+
+/**********************************************************************************************/
+
+#footer {
+  background-color: #0B1216;
+  height: 488px;
+  box-sizing: border-box;
+}
+
+#footer .social {
+  height: 30px;
+}
+
+#footer img {
+  height: 50px;
+}
+
+#footer input[type="text"] {
+  margin: 20px 0;
+  width: 426px;
+  height: 41px;
+  background-color: #15232b;
+  border: none;
+}
+
+#footer input[type="submit"] {
+  width: 64px;
+  height: 41px;
+  background-color: #2E8ECE;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer_logo {
+  margin: 20px;
+  text-align: center;
+}
+
+.deep {
+  color: #F8DE60;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.soul {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.point {
+  color: #F8DE60;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.footer_meta {
+  text-align: center;
+  color: #a5a5a5;
+  margin-bottom: 20px;
+}
+
+#bottom {
+  background-color: #050B0F;
+  height: 60px;
+  text-align: center;
+  color: white;
+  line-height: 60px;
+}
+
+.date {
+  color: grey;
+}
+
+.content {
+  color: black;
+  font-size: 15px;
+}
+
+.article_id {
+  color: #0B1216;
+}
+
+.author {
+  color: #0B1216;
+  font-size: 30px;
+}
+
+.article_text p {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,28 @@
+#bottom_content {
+  color: #666;
+  margin-top: 20px;
+  height: 465px;
+}
+
+#bottom_content>h1 {
+  color: #294271;
+  text-align: center;
+}
+
+#bottom_content>p {
+  margin-bottom: 20px;
+}
+
+#bottom_content>img {
+  width: 1000px;
+  margin: 15px 0;
+  margin-left: 7%;
+}
+
+.spacer {
+  width: 1000px;
+  height: 5px;
+  background-color: #cdd5cf;
+  border-radius: 20px;
+  margin: 40px 0;
+}

@@ -1,0 +1,13 @@
+<div class="container">
+
+  <div class="inner">
+    <h3>{{pageTitle}} </h3>
+
+    <form action="" method="post">
+      <input type="text" [(ngModel)]="theTitle" class="form-control title" name="theTitle" placeholder="Enter the title">
+      <textarea [(ngModel)]="theContent" name="content" class="form-control" id="content" cols="30" rows="20" placeholder="Add your post here"></textarea>
+
+      <button (click)="savePost()" class="save">Save</button>
+    </form>
+    <div>
+    </div>

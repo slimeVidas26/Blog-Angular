@@ -1,0 +1,56 @@
+#alerts {
+  float: right;
+  overflow-y: scroll;
+  height: 520px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#alerts>h2 {
+  color: #FFF;
+  background-color: #294271;
+  padding: 10px;
+  width: 320px;
+  margin-left: 43px;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert>p,
+.alert>ul {
+  margin-bottom: 0;
+  max-height: 64px;
+  overflow: hidden;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#alerts>h2 {
+  color: #FFF;
+  background-color: #294271;
+  padding: 10px;
+}
+
+.alert:nth-child(odd) {
+  background-color: #F3F3F3;
+  padding: 5px;
+}
+
+.alert:nth-child(even) {
+  background-color: rgb(177, 192, 207);
+  padding: 5px;
+}

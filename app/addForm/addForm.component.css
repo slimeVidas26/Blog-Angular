@@ -1,0 +1,71 @@
+.container {
+  width: 80%;
+  height: 490px;
+  background-color: #fff;
+  margin: auto;
+  border: 1px solid #e0e1e2;
+  margin-top: 22px;
+  box-shadow: 0 0 0 1px #ccc;
+  margin-bottom: 70px;
+}
+
+.inner {
+  padding: 50px 50px 0 50px;
+}
+
+.inner h3 {
+  color: #cdcdcd;
+  font-size: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+.inner input[type="text"],
+.inner input[type="submit"],
+.save {
+  width: 470pxpx;
+  border: 2px solid #e3e7e9;
+  background: #fff;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  transition: all 0.3s linear
+}
+
+.title {
+  font-weight: bold;
+}
+
+.inner input[type="text"]:focus,
+.from input[type="submit"]:focus,
+.save {
+  border-color: #2299d5;
+  color: #444;
+  transition: border-color 0.3s linear;
+}
+
+.inner input[type="submit"],
+.save {
+  padding: 12px 25px;
+  width: 100px;
+  border: none;
+  background: #2299d5;
+  transition: background 0.3s linear;
+  color: #fff;
+  font-size: 18px;
+  float: right;
+}
+
+input[type=submit]:hover,
+.save {
+  background: #2980B9;
+}
+
+textarea.form-control {
+  height: 204px;
+  margin-bottom: 10px;
+}
